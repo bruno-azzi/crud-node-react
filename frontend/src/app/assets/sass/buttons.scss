@@ -1,0 +1,25 @@
+@import './imports.scss';
+
+.main-btn {
+  border: 0;
+  background-color: $blue;
+  color: $white;
+  font-size: 14px;
+  border-radius: 5px;
+  padding: 14px;
+  transition: 250ms ease;
+
+  &.bigger {
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 16px;
+  }
+
+  .red {
+    background-color: $red;
+  }
+
+  &:hover {
+    opacity: .8;
+  }
+}

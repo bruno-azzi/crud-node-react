@@ -1,0 +1,25 @@
+@import '../../assets/sass/imports.scss';
+
+[data-component='header'] {
+  padding: 14px 0;
+
+  .logo {
+    max-width: 155px;
+  }
+
+  .title {
+    color: $blue;
+    font-size: 22px;
+  }
+  
+  .main-btn {
+    min-width: 120px;
+  }
+
+  .title {
+    font-size: 22px;
+    font-weight: 300;
+    margin-left: 50px;
+  }
+
+}

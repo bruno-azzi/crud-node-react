@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="42.002" height="45" viewBox="0 0 42.002 45">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="bg" d="M0,0H42V45H0Z" fill="#367ba4"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_de_máscara_1" data-name="Grupo de máscara 1" clip-path="url(#clip-path)">
+    <g id="shopping-cart" transform="translate(0 4.042)">
+      <path id="Caminho_1" data-name="Caminho 1" d="M13.533,24.611H35.849a1.231,1.231,0,0,0,1.183-.892L41.954,6.491a1.23,1.23,0,0,0-1.183-1.569H10.695L9.815.964A1.231,1.231,0,0,0,8.614,0H1.231a1.231,1.231,0,0,0,0,2.461h6.4l4.443,19.993a3.691,3.691,0,0,0,1.466,7.079H35.849a1.231,1.231,0,1,0,0-2.461H13.536a1.23,1.23,0,0,1,0-2.461ZM39.14,7.383,34.921,22.149h-20.4L11.241,7.383Zm0,0" fill="#367ba4"/>
+      <path id="Caminho_2" data-name="Caminho 2" d="M562.5,1353.694a3.692,3.692,0,1,0,3.692-3.692A3.7,3.7,0,0,0,562.5,1353.694Zm3.692-1.23a1.23,1.23,0,1,1-1.231,1.23A1.232,1.232,0,0,1,566.193,1352.463Zm0,0" transform="translate(-550.196 -1320.47)" fill="#367ba4"/>
+      <path id="Caminho_3" data-name="Caminho 3" d="M1357.5,1353.694a3.692,3.692,0,1,0,3.692-3.692A3.7,3.7,0,0,0,1357.5,1353.694Zm3.692-1.23a1.23,1.23,0,1,1-1.23,1.23A1.232,1.232,0,0,1,1361.194,1352.463Zm0,0" transform="translate(-1327.806 -1320.47)" fill="#367ba4"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,11 @@
+@import '../../assets/sass/imports.scss';
+
+[data-component='footer'] {
+  color: $blue;
+  background-color: $grey;
+  padding: 14px 0;
+
+  .logo {
+    max-width: 155px;
+  }
+}

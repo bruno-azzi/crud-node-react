@@ -1,0 +1,66 @@
+$grid-breakpoints: (
+  xs: 0,
+  sm: 768px,
+  md: 992px,
+  lg: 1024px,
+  xl: 1200px
+  // you can add a new breakpoint here.
+);
+
+$container-max-widths: (
+  sm: 768px,
+  md: 920px,
+  lg: 1024px,
+  xl: 1140px
+  // you can add a new container-max-width breakpoint here.
+);
+
+@mixin xs {
+	@media (min-width: 0) {
+		@content;
+	}
+}
+
+@mixin sm {
+	@media (min-width: map-get($grid-breakpoints, 'sm')) {
+		@content;
+	}
+}
+
+@mixin md {
+	@media (min-width: map-get($grid-breakpoints, 'md')) {
+		@content;
+	}
+}
+
+@mixin lg {
+	@media (min-width:  map-get($grid-breakpoints, 'lg')) {
+		@content;
+	}
+}
+
+@mixin xl {
+	@media (min-width:  map-get($grid-breakpoints, 'xl')) {
+		@content;
+	}
+}
+
+@mixin desktop {
+	@media (min-width: 1280px) {
+		@content;
+	}
+}
+
+@mixin medium-desktop {
+	@media (min-width: 1367px) {
+		@content;
+	}
+}
+
+@mixin big-desktop {
+	@media (min-width: 1600px) {
+		@content;
+	}
+}
+
+@import 'bootstrap-vars.scss';	// keep this at the end of the file
