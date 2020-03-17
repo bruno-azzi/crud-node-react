@@ -4,8 +4,16 @@
   color: $blue;
   background-color: $grey;
   padding: 14px 0;
+  text-align: center;
 
   .logo {
-    max-width: 155px;
+    max-width: 90px;
+    margin: 0 0 10px;
+
+    @include lg {
+      max-width: 155px;
+    }
   }
+
+
 }

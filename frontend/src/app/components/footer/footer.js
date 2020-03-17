@@ -9,11 +9,11 @@ const Footer = () => {
     <footer data-component="footer">
       <div className="container">
         <div className="row justify-content-between align-items-center">
-          <div className="col-auto">
+          <div className="col-12 col-sm-auto">
             <img className="logo" src={Logo} alt="RCA Digital Logo" title="RCA Digital"/>
           </div>
 
-          <div className="col-auto">
+          <div className="col-12 col-sm-auto">
             <p className="copyright">Teste front-end 2020 - RCA Digital</p>
           </div>
         </div>

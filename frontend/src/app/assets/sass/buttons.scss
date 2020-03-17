@@ -6,14 +6,8 @@
   color: $white;
   font-size: 14px;
   border-radius: 5px;
-  padding: 14px;
+  padding: 12px 26px;
   transition: 250ms ease;
-
-  &.bigger {
-    font-size: 18px;
-    text-transform: uppercase;
-    padding: 16px;
-  }
 
   .red {
     background-color: $red;
@@ -21,5 +15,29 @@
 
   &:hover {
     opacity: .8;
+  }
+}
+
+.cart-btn {
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  border: 0;
+  color: $blue;
+
+  .icon {
+    background-image: url('../img/cart.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 25px;
+    height: 25px;
+    display: block;
+    margin-right: 10px;
+
+    @include lg {
+      width: 35px;
+      height: 35px;
+    }
   }
 }
