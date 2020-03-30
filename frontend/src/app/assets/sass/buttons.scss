@@ -9,7 +9,7 @@
   padding: 12px 26px;
   transition: 250ms ease;
 
-  .red {
+  &.red {
     background-color: $red;
   }
 

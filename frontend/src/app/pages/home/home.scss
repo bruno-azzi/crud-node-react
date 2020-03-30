@@ -11,5 +11,38 @@
       margin: 10px 0 35px;
     }
   }
+
+  .products {
+    background-color: $light-grey;
+    padding: 20px 0;
+
+    @include lg {
+      padding: 40px 0;
+    }
+  }
+
+  .title-row {
+    margin-bottom: 20px;
+
+    @include lg {
+      margin-bottom: 51px;
+    }
+  }
+
+  .main-title {
+    font-size: 28px;
+    color: $dark-grey;
+    font-weight: 300;
+    letter-spacing: .8px;
+
+    @include lg {
+      font-size: 52px;
+    }
+  }
+
+  .products-qty {
+    font-size: 20px;
+    margin-left: 10px;
+  }
   
 }

@@ -9,6 +9,15 @@
   flex-direction: column;
   justify-content: space-between;
   width: 100%;
+  position: relative;
+  transition: 300ms ease;
+
+  // &:hover {
+  //   transform: translateY(-10px);
+  //   box-shadow: 0 2px 20px 0 rgba(0, 0, 0, .2);
+  // }
+
+  //  0 2px 10px 0 rgba(0, 0, 0, .08), inset 0 0 0 3px $light-blue 
 
   .product-header {
     padding: 12px 14px;
@@ -59,6 +68,35 @@
     width: 100%;
     padding: 11px 26px;
     font-size: 10px;
+  }
+
+  .edit-product-form {
+    width: 100%;
+    padding: 20px;
+
+    .input-field {
+      margin: 0 0 10px;
+      padding: 7px 15px;
+
+      &::placeholder {
+        font-size: 14px;
+      }
+    }
+
+    .checkbox-list {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 10px 0 20px;
+    }
+
+    .btn-holder {
+      display: flex;
+      
+      .red {
+        margin-right: 10px;
+      }
+    }
   }
 
 }

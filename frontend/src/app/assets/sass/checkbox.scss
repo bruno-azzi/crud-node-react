@@ -1,0 +1,87 @@
+@import './imports.scss';
+
+// Checkbox
+
+// <label htmlFor="check" className="checkbox-holder">
+//   <input className="hidden-checkbox" type="checkbox" name="check" id="check"/>
+//   <div className="checkbox"></div>
+//   <span className="checkbox-label">Label</span>
+// </label>
+
+.checkbox-holder {
+  display: inline-flex;
+  align-self: flex-start;
+  align-items: center;
+  cursor: pointer;
+
+  .hidden-checkbox {
+    opacity: 0;
+    position: absolute;
+    pointer-events: none;
+  }
+  
+  .hidden-checkbox:focus:not(:active) + .checkbox::after {
+    display: block;
+  }
+  
+  .hidden-checkbox:checked + .checkbox:before {
+    opacity: 1;
+  }
+  
+  .checkbox {
+    border: 2px solid $light-blue;
+    border-radius: 5px;
+    width: 20px;
+    height: 20px;
+    font-family: sans-serif;
+    color: black;
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    margin-right: 5px;
+  }
+  
+  .checkbox:after {
+    display: none;
+    content: '';
+    position: absolute;
+    border-radius: 5px;
+    background-color: rgba(26, 120, 183, .4);
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -6px;
+    animation: ripple 1s;
+    opacity: 0;
+  }
+  
+  .checkbox:before {
+    content: '';
+    width: 12px;
+    height: 12px;
+    background: $light-blue;
+    border-radius: 2px;
+    opacity: 0;
+    transition: 300ms ease;
+  }
+
+  .checkbox-label {
+    line-height: 20px;
+    font-size: 15px;
+  }
+}
+
+@keyframes ripple {
+  from {
+    opacity: 1;
+    transform: scale(0);
+  }
+  to {
+    opacity: 0;
+    transform: scale(6);
+  }
+}
